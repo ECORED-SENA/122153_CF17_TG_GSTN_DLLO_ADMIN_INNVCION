@@ -8,31 +8,31 @@
         span 1
       h1 La capacidad de innovar 
 
-    .row.justify-content-between.mb-4
-      .col-md-6.col-lg-5.mb-3
+    .row.justify-content-center.mb-4
+      .col-md-7.col-lg-5.mb-3
         img(src='@/assets/curso/temas/tema1/img-1.png')
-      .col-md-6.col-lg-7
+      .col-lg-7
         p Comencemos hablando de los procesos de innovación en las empresas, los cuales son una fuente de generación de valor, puesto que permiten mejoras y creación de nuevas líneas o formas de hacer las cosas. Un modelo de innovación proporciona unos criterios para ir desde el descubrimiento de la necesidad o el reto, para luego pasar a resolverlo, transitando por el perfeccionamiento de una solución práctica y completando un modelo de negocio, para garantizar la sostenibilidad y darle impulso a su escalamiento.
         p Un modelo de innovación se ubica en busca de proyectos deseables, factibles técnicamente y viables económicamente; la innovación exige realizar mejoras para agregar valor para los consumidores y que se encuentren dispuestos a pagar por este progreso. Recurrentemente, asociamos el término innovación con el de cambio; innovar representa transformación en los procesos y utilizar la creatividad para generar nuevas ideas.
 
     p.mb-4 En cuanto a los modelos de innovación, existen varios que dirigen este proceso de ingenio empresarial:
 
-    .row.mb-5.justify-content-center
-      .col-md-6.col-lg-4.mb-5.mb-lg-0.row2
+    .row.justify-content-center.mb-5
+      .col-md-6.col-lg-4.mb-3.mb-lg-0.row2
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img-2.svg' alt='')
           .ini.fnd-6.color-primario.b-r-i
             .p-4.mt-3
               h4.text-center Modelo lineal (enfoque#[em pull])
               p.text-center Está relacionado con el impulso de la demanda y la investigación; como resultado de ese impulso, se generan resultados para la fabricación o creación de nuevos productos o servicios. 
-      .col-md-6.col-lg-4.mb-5.mb-lg-0.row2
+      .col-md-6.col-lg-4.mb-3.mb-lg-0.row2
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img-3.svg' alt='')
           .ini.fnd-6-.color-primario
             .p-4.mt-3
               h4.text-center Modelo mixto 
               p.text-center Reconoce la importancia de la retroactividad del producto o servicio, desde el mercado.
-      .col-md-6.col-lg-4.mb-5.mb-lg-0.row2
+      .col-md-6.col-lg-4.mb-3.mb-lg-0.row2
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img-4.svg' alt='')
           .ini.fnd-6.color-primario.b-r-d  
@@ -41,17 +41,17 @@
               p.text-center Sucede cuando primero se desarrolla el producto o servicio, y luego se trata de introducir al mercado, descubriendo sus diferentes utilidades y explorando sus potencialidades.
 
     .row.justify-content-between
-      .col-md-6.col-lg-5.mb-3
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema1/img-5.png')
-      .col-md-6.col-lg-7
+      .col-lg-7
         p Ahora, la competitividad y el comportamiento económico de las organizaciones se encuentran influenciados por la capacidad con la que cuentan para hacer las cosas de manera diferente, respondiendo a las demandas del mercado y adaptándose a los cambios de este. 
         .cajon.color-primario.p-4.mb-5.fnd-3
           p.mb-0 Muchas investigaciones se han dedicado a estudiar la innovación como proceso y como capacidad, encontrando en ella muchas dimensiones y un alto grado de complejidad, dada su estructura y perspectiva dinámica para analizar e identificar la combinación de los recursos que la componen.  
     
-    .row.justify-content-between.mb-4
-      .col-md-6.col-lg-7
+    .row.justify-content-center.mb-4
+      .col-lg-7
         p Varios autores han considerado la capacidad de innovación como un prototipo de capacidad dinámica; principalmente, se encuentra una gran variedad de definiciones de estas capacidades, aunque en síntesis, corresponda a la habilidad de la empresa para crear, modificar o variar las operaciones y la cotidianidad que se encuentra arraigada como forma de hacer las cosas. Entonces, la capacidad innovadora es la habilidad para la transformación continua del conocimiento en la implementación de nuevas propuestas e ideas que benefician a los consumidores, a la sociedad y, por supuesto, a la misma empresa, a partir de la nueva oferta de productos, servicios o procesos, o la renovación de estos.
-      .col-md-6.col-lg-5.mb-3
+      .col-md-7.col-lg-5.mb-3
         img(src='@/assets/curso/temas/tema1/img-6.png')
 
     p.mb-4  Esta capacidad de innovación se presenta como el resultado de cuatro procesos, los cuales son:
@@ -121,65 +121,63 @@
 
     .row.justify-content-center.mb-5
       SlyderA.fnd-4.fl-a.p-5(tipo="b")
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-lg-0.p-y-5
             h3 Entrevista
             p Se da a partir de la generación de un ambiente de confianza y afinidad entre el entrevistador y el entrevistado donde, a partir de una serie de preguntas, se puede indagar un poco más a profundidad la situación o el caso en cuestión.
-          .col-md-6
+          .col-lg-6.col-md-9
             figure
               img(src='@/assets/curso/temas/tema1/img-13.svg')    
         .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
+          .col-lg-6.mb-4.mb-lg-0.p-y-5
             h3 Mapa de empatía
             p Es un método que busca describir el cliente ideal por medio del análisis de lo que piensa, siente, quiere y necesita. Los 6 elementos del mapa de empatía son: ¿qué piensa y siente el cliente?, ¿qué escucha?, ¿qué ve?, ¿qué dice y hace?, ¿cuáles son los esfuerzos del cliente?, ¿cuáles son los resultados del cliente? Esta es la aproximación ilustrativa de un mapa de empatía.
-          .col-md-6
+          .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 2.] Mapa de empatía
-            figure.px-5
+            figure.px-lg-5
               img(src='@/assets/curso/temas/tema1/img-14.svg' alt="Ilustración de un mapa de empatía. ¿Qué piensa y siente? Sus preocupaciones, aspiraciones e inquietudes. ¿Qué ve? En el mercado, en su entorno o su círculo social. ¿Qué dice y hace? Su comportamiento públicamente y con su entorno. ¿Qué oye? Lo que dicen las personas y que actúa como influencia en sus decisiones. Esfuerzos - Miedos. Resultados - Beneficios")    
         .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
+          .col-lg-6.mb-4.mb-lg-0.p-y-5
             h3 Mapa de experiencia del cliente
             p Es una representación ilustrativa de la experiencia que tiene el cliente con la marca, la empresa y el producto o servicio; estas imágenes cuentan la historia de cómo se comporta en la interacción y la experiencia que tiene allí. Esta representación visual debe incluir los puntos de contacto y los momentos de verdad, los sentimientos y las acciones que realice el consumidor.
-          .col-md-6
+          .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 3.] Mapa de experiencia del cliente
-            figure.px-5
+            figure.px-lg-5
               img(src='@/assets/curso/temas/tema1/img-15.svg' alt="Mapa de experiencia del cliente en la compra de una máquina de producción,  incluye los puntos de contacto, los momentos de verdad, los sentimientos y las acciones que realiza el consumidor. ")    
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-lg-0.p-y-5
             h3  #[em Visual thinking]
             p Es una metodología basada en el uso de dibujos sencillos para explicar conceptos con alto nivel de complejidad. El cerebro del ser humano está diseñado para procesar la información con más facilidad a partir de imágenes; por esta razón representa una apropiada opción para explicar situaciones complejas o resolver un problema a través del uso de imágenes, conectando ideas y llegando a un mejor entendimiento del suceso. Es una metodología que puede ser utilizada en sesiones de lluvia de ideas, mediante la creación de un panel visual para motivar que las ideas fluyan y se materialicen en soluciones; de igual manera, puede aplicarse para crear presentaciones, propuestas o informes, como apoyo al contenido del proyecto y con el fin de facilitar la comprensión.
-          .col-md-6
-            figure.px-5
+          .col-lg-6.col-md-10
+            figure.px-lg-5
               img(src='@/assets/curso/temas/tema1/img-16.svg')    
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-lg-0.p-y-5
             h3 Etnografías
             p Una herramienta muy utilizada por los antropólogos para describir costumbres y tradiciones de los seres humanos, conociendo la identidad de una colectividad, a partir de la observación al grupo de individuos por parte del investigador; esto se manifiesta durante un periodo de tiempo en el que se encuentra en contacto con ellos. Es una metodología que usualmente es complementada con entrevistas, para llegar a la información y los datos relevantes para la situación planteada.
-          .col-md-6
-            figure.px-5
+          .col-lg-6.col-md-9
+            figure.px-lg-5
               img(src='@/assets/curso/temas/tema1/img-17.svg')    
 
     p Luego de la obtención de la información en el paso anterior, continuamos con la fase de idear, la cual es muy importante para poner a prueba la creatividad y generar propuestas o soluciones, a los planteamientos realizados.
     p.mb-4 Algunas de las herramientas que apoyan la generación y organización de las ideas son:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .row.justify-content-center.align-items-center
-            .col-sm-10.col-xl-6.mb-4.mb-xl-0.hh1.img-384
-              .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-                .indicador--hover(v-if="indicadorTarjetaFlip")
-                .tarjeta-flip__contenedor
-                  .tarjeta-flip__img.fnd-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-18-.svg')})`}")
-                  .tarjeta-flip__contenido.p-4.p-xl-5.fnd-5
-                    p.text-center Es una de las técnicas más conocidas y utilizadas en materia de procesos creativos; consiste en reunir un equipo (estratégico) de personas para que participe en la generación de ideas, luego del planteamiento claro de un propósito, situación o necesidad. Se debe igualmente asegurar un ambiente apto para la creatividad y, finalmente, una vez evaluadas las ideas y sus derivaciones, dar retroalimentación a los participantes.
-            .col-sm-10.col-xl-6.mb-4.mb-xl-0.hh1.img-384
-              .tarjeta.tarjeta-flip.color-secundario
-                .tarjeta-flip__contenedor
-                  .tarjeta-flip__img.fnd-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-19-.svg')})`}")
-                  .tarjeta-flip__contenido.p-4.p-xl-5.fnd-5
-                    p.text-center Una herramienta desarrollada por Edwar de Bono, un psicólogo y profesor de la Universidad de Oxford, que propuso esta alternativa para fomentar el pensamiento innovador en una empresa; es una técnica que facilita el análisis de los problemas y la resolución de estos desde diferentes perspectivas. Permite plantear un marco de referencia para resolver controversias, porque se piensa desde diversos roles y posiciones, para superar un obstáculo o resolver un problema, de manera creativa.
+      .col-md-8.col-lg-5.mb-4.mb-xl-0.hh1.img-384
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.fnd-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-18-.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.fnd-5
+              p.text-center Es una de las técnicas más conocidas y utilizadas en materia de procesos creativos; consiste en reunir un equipo (estratégico) de personas para que participe en la generación de ideas, luego del planteamiento claro de un propósito, situación o necesidad. Se debe igualmente asegurar un ambiente apto para la creatividad y, finalmente, una vez evaluadas las ideas y sus derivaciones, dar retroalimentación a los participantes.
+      .col-md-8.col-lg-5.mb-4.mb-xl-0.hh1.img-384
+        .tarjeta.tarjeta-flip.color-secundario
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.fnd-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-19-.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.fnd-5
+              p.text-center Una herramienta desarrollada por Edwar de Bono, un psicólogo y profesor de la Universidad de Oxford, que propuso esta alternativa para fomentar el pensamiento innovador en una empresa; es una técnica que facilita el análisis de los problemas y la resolución de estos desde diferentes perspectivas. Permite plantear un marco de referencia para resolver controversias, porque se piensa desde diversos roles y posiciones, para superar un obstáculo o resolver un problema, de manera creativa.
 
     p Los seis sombreros representan seis maneras de pensar y se utilizan de manera proactiva, no reactiva.
     p.mb-4 El significado de cada uno de los colores en esta metodología es:
@@ -261,65 +259,65 @@
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-12.col-sm-11
         SlyderA.fnd-4.fl-a.p-5(tipo="b")
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 Co-creación de valor
               p Persigue la búsqueda de la creación de valor a partir de la apertura al diálogo con clientes, colaboradores y proveedores, de tal manera que se diseñe, conjuntamente, la propuesta de valor. Esta metodología rompe paradigmas frente a la democratización y descentralización al demostrar que funciona por medio de las experiencias compartidas. La apuesta de esta metodología es la de convertir a los individuos en sujetos activos y partícipes en la definición y la creación de valor.
-            .col-md-5
+            .col-md-10.col-lg-5
               img(src='@/assets/curso/temas/tema1/img-26.svg')    
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 Inmersión profunda
               p Esta metodología busca, a través de la inmersión de un grupo de personas en situaciones de conflicto, necesidad u oportunidad, que se someta a una lluvia de ideas la solución o propuesta a una causa particular. Es una metodología comúnmente utilizada para el desarrollo de nuevos productos o procesos, así como en las estrategias de servicio al cliente.
-            .col-md-5.px-5
+            .col-md-10.col-lg-5.px-5
               img(src='@/assets/curso/temas/tema1/img-27.svg')  
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 Pensamiento de diseño <p>#[em (Design thinking)] </p>
               p Se trata del planteamiento ágil de una problemática y, posteriormente, se implementan soluciones con base en las necesidades de los consumidores, usuarios o clientes. Esta metodología se centra en encontrar, entender, crear, pensar y hacer, a partir de 5 pasos: empatía, definir, idear, prototipar y probar.
-            .col-md-5.px-5
+            .col-md-10.col-lg-5.px-5
               img(src='@/assets/curso/temas/tema1/img-28.svg')  
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 #[em Lean startup]
               p Basada en la filosofía de producción #[em (lean manufacturing),] donde se minimiza la probabilidad de cometer errores y subestimar riesgos en el lanzamiento de nuevos productos o servicios; parte de una idea que debe ser validada en el mercado y, por lo tanto, se crea un prototipo, un producto mínimo viable para lanzarlo cuanto antes; el propósito es medir en lo posible los resultados para tener la posibilidad de aprender e insistir en lo que funciona, o abandonar en lo que no funciona. 
-            .col-md-5.px-5
+            .col-md-9.col-lg-5.px-5
               img(src='@/assets/curso/temas/tema1/img-29.svg')  
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 Innovación abierta <p>#[em (Open innovation)] </p>
               p Es una metodología orientada a la colaboración con profesionales externos y la mezcla con los conocimientos internos, para el planteamiento e impulso de proyectos de investigación y desarrollo. Consiste principalmente en dos actividades: la primera, lograr que la empresa se permee de conocimiento del entorno y, la segunda, llevar el conocimiento interno al exterior.  
-            .col-md-5.px-5
+            .col-md-10.col-lg-5.px-5
               img(src='@/assets/curso/temas/tema1/img-30.svg')                                            
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 #[em Project management]
               p Esta metodología nació con el propósito de establecer estándares para la dirección de proyectos, reduciendo el riesgo en el proceso empresarial e incrementando los resultados en materia de innovación. Su aplicación se encuentra resumida en los siguientes pasos: inicio, planificación, ejecución, supervisión, control y cierre; es una metodología aplicable para proyectos de dimensiones amplias, presupuestos elevados y alta incertidumbre.
-            .col-md-5
+            .col-md-10.col-lg-5
               img(src='@/assets/curso/temas/tema1/img-31.svg')    
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 Planificación de escenarios <p>#[em (Scenario planning)] </p>
               p Consiste en la planeación de la estrategia de las empresas para flexibilizar la planeación a largo plazo. Se construyen escenarios para mejorar la toma de decisiones, simulando las situaciones que podrían llegar a presentarse; estos escenarios deben ser narrados con detalle, para evaluar la probabilidad de éxito o fracaso de las alternativas, permitiendo la minimización del riesgo y la efectividad y asertividad programada de las decisiones.
-            .col-md-5.px-5
+            .col-md-10.col-lg-5.px-5
               img(src='@/assets/curso/temas/tema1/img-32.svg')  
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 #[em  Six sigma] 
               p En ocasiones, esta metodología representa simplemente una medida de calidad; sin embargo, está basada en datos que son analizados y medidos de manera exigente, para identificar las causales de los errores y posibilidad que sean eliminadas desencadenando en la mayor satisfacción de los consumidores o clientes y, por ende, ahorros económicos y maximización de las utilidades.
-            .col-md-5.px-5
+            .col-md-10.col-lg-5.px-5
               img(src='@/assets/curso/temas/tema1/img-33.svg')  
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 Itinerarios tecnológicos<p>#[em (Technology roadmapping)] </p>
               p Representan una herramienta de planificación de proyectos para las diferentes modalidades de empresa. Estos itinerarios tienen en cuenta la prospectiva de innovación de la organización y su desarrollo en un periodo de tiempo estacional, en procesos como: la identificación de nuevos mercados, nuevos productos o transformación de los ya existentes, competidores, entre otros. Esta metodología realiza una combinación de los objetivos de la empresa a corto plazo, con las soluciones tecnológicas específicas.
-            .col-md-5.px-5
+            .col-md-12.col-lg-5.px-5
               img(src='@/assets/curso/temas/tema1/img-34-.svg')  
-          .row
-            .col-md-7.mb-4.mb-md-0.p-y-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0.p-y-5
               h3 Metodologías ágiles
               p Buscan generarle satisfacción al cliente por medio de la entrega temprana y oportuna de la solución, siendo esta dividida en varias partes y trabajada de manera simultánea por varios equipos de trabajo, de tal manera que sea entregada en un tiempo récord. Esta forma de trabajar permite que, si se presentan modificaciones, solo afecte a una parte del proceso. Los equipos que se conforman son multidisciplinares, logrando con esto no perder el enfoque del mercado y abarcar lo que más se pueda de él.
-            .col-md-5.px-5
+            .col-md-10.col-lg-5.px-5
               img(src='@/assets/curso/temas/tema1/img-35.svg')            
 
 
@@ -394,32 +392,32 @@
 
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="<em>Scrum</em>")
-        .row    
-          .col-md-6.mb-4.mb-md-0
-              figure.px-3
-                img.img-240(src='@/assets/curso/temas/tema1/img-44.svg')                     
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center     
+          .col-10.col-md-9.col-lg-6.mb-4.mb-lg-0
+            figure.px-md-3
+              img.img-240(src='@/assets/curso/temas/tema1/img-44.svg')                     
+          .col-11.col-lg-6.mb-4.mb-md-0
             p.mb-3 Se caracteriza por ser la “metodología del caos”, y está basada en el desarrollo incremental de la estructura, fraccionando los proyectos grandes en pequeños proyectos y por etapas, análisis, desarrollo y #[em testing]. Es una metodología que se hace posible si existe un conocimiento amplio del equipo de trabajo, funciones y roles bien caracterizados por las partes interesadas. Quien lidera el ejercicio, crea una lista de prioridades y delega para que se vayan realizando entregas y avances en la solución, con el fin de normalizar los errores que se puedan ir presentando; también las reuniones frecuentes como característica principal para definición del plan, decisiones y reflexión de retroalimentación. Los elementos claves por los cuales se mueve el #[em Scrum], son: innovación, flexibilidad, productividad y competitividad.
       .py-3.py-md-4(titulo="<em>Kanban</em>")
-        .row    
-          .col-md-6.mb-4.mb-md-0
-              figure.px-3
-                img.img-240(src='@/assets/curso/temas/tema1/img-45.svg')                     
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center     
+          .col-10.col-md-9.col-lg-6.mb-4.mb-lg-0
+            figure.px-md-3
+              img.img-240(src='@/assets/curso/temas/tema1/img-45.svg')                     
+          .col-11.col-lg-6.mb-4.mb-md-0
             p.mb-3 También conocida como tarjeta visual, porque representa una herramienta muy importante y de utilidad para los responsables de los proyectos. Consiste en la elaboración de un diagrama o cuadro en el que se distribuyen las tareas en tres columnas clasificadas en pendientes, en proceso o en terminadas, teniendo esta información al alcance de todos los participantes y posibilitando el control a partir de la eliminación de tareas repetidas o del olvido de algunas de ellas. Ayuda entonces a mejorar la eficiencia y la productividad del equipo. Pueden reconocerse como ventajas de esta metodología, la planificación de tareas, la mejora en el rendimiento del equipo de trabajo, las métricas visuales y los plazos de entrega permanentes.
       .py-3.py-md-4(titulo="<em>Smart</em>")
-        .row    
-          .col-md-6.mb-4.mb-md-0
-              figure.px-3
-                img.img-240(src='@/assets/curso/temas/tema1/img-46.svg')                     
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center     
+          .col-10.col-md-9.col-lg-6.mb-4.mb-lg-0
+            figure.px-md-3
+              img.img-240(src='@/assets/curso/temas/tema1/img-46.svg')                     
+          .col-11.col-lg-6.mb-4.mb-md-0
             p.mb-3 Es una herramienta que ayuda en el planteamiento de metas claras desde el inicio de los proyectos, dado que establece los objetivos conforme a cinco elementos, para que sea exitoso; las metas deben ser específicas, medibles, alcanzables, relevantes y tener un plazo definido para su cumplimiento. Es una estrategia basada en el ahorro, en tanto que se establece la cantidad de dinero objetivo y ayuda para hacer un seguimiento financiero a la ejecución del proyecto. 
       .py-3.py-md-4(titulo="<em>Lean</em>")
-        .row    
-          .col-md-6.mb-4.mb-md-0
-              figure.px-3
-                img.img-240(src='@/assets/curso/temas/tema1/img-47.svg')                     
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center     
+          .col-10.col-md-10.col-lg-6.mb-4.mb-lg-0
+            figure.px-md-3
+              img.img-240(src='@/assets/curso/temas/tema1/img-47.svg')                     
+          .col-11.col-lg-6.mb-4.mb-md-0
             p.mb-3 Es un método innovador que busca la optimización de los procesos de producción y de gestión para la empresa, puesto que busca el uso de menos recursos y esto se representa en mayor eficiencia. El enfoque primordial de esta metodología es la reducción de la inversión en recursos, tiempo y esfuerzo. Una metodología basada en los procesos productivos que ha permitido, a partir de su implementación, eliminar lo que se considera desperdicio e identificar las sobrecargas que hacen más lentos los procesos.
 
 

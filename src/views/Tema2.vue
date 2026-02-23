@@ -8,16 +8,16 @@
         span 2
       h1 Análisis y diagnóstico organizacional
 
-    .row.justify-content-between.mb-4
-      .col-md-6.col-lg-5.mb-3
+    .row.justify-content-center.mb-4
+      .col-md-8.col-lg-5.mb-3
         img(src='@/assets/curso/temas/tema2/img-1.svg')
-      .col-md-6.col-lg-7
+      .col-lg-7
         p Es importante conocer que el análisis que se despliega a partir de la generación de información en la fase diagnóstica de una empresa, proporciona, a la organización, la oportunidad de generar soluciones ante sus necesidades; dependiendo ellas, de su situación en el mercado, de su situación interna y de sus objetivos a futuro y, contemplando en esto, las posibilidades de ser innovadores en sus prácticas.
 
     p.mb-4 Existen dos tipos de diagnóstico organizacional, el funcional y el cultural, y a partir de ellos puede darse la captura de información relevante para la empresa y sus requerimientos:
 
     .row.justify-content-center.align-items-start.mb-4
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img-2.svg')    
       .col-lg-8
         TabsA.color-acento-contenido.grs.mb-3
@@ -62,9 +62,9 @@
     p.mb-4 Conozcamos sobre cada una de ellas:
 
     .row.justify-content-between
-      .col-md-6.col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img-3.svg') 
-      .col-md-6.col-lg-8  
+      .col-lg-8  
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-5")
           .row(titulo="Cualitativas")
             ul.lista-ul--color.nar.fa-lista
@@ -103,27 +103,27 @@
 
     TabsC.color-acento-contenido.mb-4
       .py-3.py-md-4(titulo="Análisis PESTEL")
-        .row    
-          .col-md-6.mb-4.mb-md-0
-              figure.px-3
-                img.img-240(src='@/assets/curso/temas/tema2/img-4.svg')                     
-          .col-md-6.mb-4.mb-md-0
-            p.mb-3 Además de tener en cuenta las variables políticas, económicas, sociales y tecnológicas, se analizan también las ecológicas, como el cambio climático y las consecuencias que puede tener el sector turístico o de aseguradoras, la influencia de las leyes de protección medioambiental o las regulaciones en materia de gestión de residuos o de energías. Y, por otro lado, las variables legales, analizando desde este factor, las leyes en defensa del consumidor, antimonopolio, licencias, legislación laboral, leyes de protección de la salud, entre otras.
+        .row.justify-content-center    
+          .col-md-10.mb-3.mb-lg-0
+            figure.px-3
+              img.img-240(src='@/assets/curso/temas/tema2/img-4.svg')                     
+          .col-lg-6
+            p Además de tener en cuenta las variables políticas, económicas, sociales y tecnológicas, se analizan también las ecológicas, como el cambio climático y las consecuencias que puede tener el sector turístico o de aseguradoras, la influencia de las leyes de protección medioambiental o las regulaciones en materia de gestión de residuos o de energías. Y, por otro lado, las variables legales, analizando desde este factor, las leyes en defensa del consumidor, antimonopolio, licencias, legislación laboral, leyes de protección de la salud, entre otras.
       .py-3.py-md-4(titulo="Análisis DOFA – FODA ")
-        .row    
-          .col-md-6.mb-4.mb-md-0
-              figure.px-3
-                img.img-240(src='@/assets/curso/temas/tema2/img-5.svg')                     
-          .col-md-6.mb-4.mb-md-0
-            p.mb-3 Una herramienta de análisis estratégico que posibilita analizar la situación interna y externa de una empresa o proyecto; análogamente es como la fotografía de la empresa o el proyecto, en un momento determinado de tiempo. Sin embargo, al tener en cuenta que la cotidianidad no es estática y por el contrario, presenta constante evolución; además de ser una herramienta utilizada para elaborar planes de negocio, resulta conveniente repetirla en el tiempo, para reconocer la situación real en la que se desenvuelve, con el fin de planear en función de ella, la estrategia de futuro más adecuada. 
+        .row.justify-content-center    
+          .col-md-9.mb-3.mb-lg-0
+            figure.px-3
+              img.img-240(src='@/assets/curso/temas/tema2/img-5.svg')                     
+          .col-lg-6
+            p Una herramienta de análisis estratégico que posibilita analizar la situación interna y externa de una empresa o proyecto; análogamente es como la fotografía de la empresa o el proyecto, en un momento determinado de tiempo. Sin embargo, al tener en cuenta que la cotidianidad no es estática y por el contrario, presenta constante evolución; además de ser una herramienta utilizada para elaborar planes de negocio, resulta conveniente repetirla en el tiempo, para reconocer la situación real en la que se desenvuelve, con el fin de planear en función de ella, la estrategia de futuro más adecuada. 
             p El nombre de esta herramienta está representado por las siglas que significan: Fortalezas, Oportunidades, Debilidades y Amenazas. Las fortalezas y debilidades forman parte del análisis interno, de las cosas que se pueden controlar, mientras que las oportunidades y las amenazas hacen parte del análisis externo, es decir, de las cosas o variables que no dependen de la empresa y, por lo tanto, no se pueden controlar. Este análisis permite realizar cruces de variables obtenidas, entendiendo que las debilidades, con la adopción de estrategias adecuadas, pueden convertirse en fortalezas; asimismo, las amenazas, con la respectiva intervención de la empresa en la medida de sus capacidades y posibilidades, pueden convertirse en oportunidades. 
       .py-3.py-md-4(titulo="Factores críticos de éxito (CSF)")
-        .row    
-          .col-md-6.mb-4.mb-md-0
-              figure.px-3
-                img.img-240(src='@/assets/curso/temas/tema2/img-6.svg')                     
-          .col-md-6.mb-4.mb-md-0
-            p.mb-3 Son aquellos objetivos generales que la organización debe alcanzar para cumplir con los objetivos estratégicos, porque su alineación y estrecha relación con la estrategia de la empresa es directa y, por lo tanto, con alta influencia sobre los resultados estratégicos. Es decir, que si la empresa detecta estos factores críticos de éxito y logra potencializar sus resultados, materializará la generación de valor y resultados positivos a nivel estratégico para la empresa. Por ejemplo, si se define como factor crítico de éxito para el aumento de la conciencia de marca, termina siendo un objetivo ambicioso pero gran generador de valor y de presencia en el mercado. Para trabajar en el logro de este objetivo, es preciso y necesario que los equipos asignados para trabajar en el tema, puedan definir los Indicadores Clave de Rendimiento (KPI) de manera cuantitativa, para tener claridad frente al panorama sobre lo que se debe hacer, cuándo y cómo.
+        .row.justify-content-center    
+          .col-md-6.mb-3.mb-lg-0
+            figure.px-3
+              img.img-240(src='@/assets/curso/temas/tema2/img-6.svg')                     
+          .col-lg-6
+            p Son aquellos objetivos generales que la organización debe alcanzar para cumplir con los objetivos estratégicos, porque su alineación y estrecha relación con la estrategia de la empresa es directa y, por lo tanto, con alta influencia sobre los resultados estratégicos. Es decir, que si la empresa detecta estos factores críticos de éxito y logra potencializar sus resultados, materializará la generación de valor y resultados positivos a nivel estratégico para la empresa. Por ejemplo, si se define como factor crítico de éxito para el aumento de la conciencia de marca, termina siendo un objetivo ambicioso pero gran generador de valor y de presencia en el mercado. Para trabajar en el logro de este objetivo, es preciso y necesario que los equipos asignados para trabajar en el tema, puedan definir los Indicadores Clave de Rendimiento (KPI) de manera cuantitativa, para tener claridad frente al panorama sobre lo que se debe hacer, cuándo y cómo.
             
     p.mb-5 Es así como los instrumentos de análisis representan la posibilidad de obtener información que, en sí misma, no debe ser una decisión, sino que convocan a realizar interpretaciones del contexto y de las realidades que vive la empresa o el proyecto. Ahora bien, también existen ilustraciones que posibilitan visualmente organizar la información para ser analizada de manera efectiva y eficiente; por esta razón, vamos a conocer sobre ellas.
 
@@ -141,14 +141,14 @@
     p.mb-4 Estas combinan factores tanto internos como externos, relacionados con la industria o el sector en el que se desenvuelve la empresa y pueden ser de uno de los dos siguientes tipos: 
 
     .row.justify-content-center.mb-4.ddd
-      .col-lg-4.d-flex
+      .col-lg-4.col-md-6.mb-3.mb-md-0.d-flex
         .tarjeta.color-acento-botones.p-4.fnd-1
           .row.justify-content-center.mb-3
             .col-8
               img.img-150(src='@/assets/curso/temas/tema2/img-8.svg' alt='')
           h4.text-center Matrices de posicionamiento
           p.text-center Proporcionan la “posición” de un proyecto o empresa con referencia al entorno o al mercado en el que opera.
-      .col-lg-4.d-flex
+      .col-lg-4.col-md-6.mb-3.mb-md-0.d-flex
         .tarjeta.color-acento-botones.p-4.fnd-1
           .row.justify-content-center.mb-3
             .col-8
@@ -157,7 +157,7 @@
           p.text-center Proporcionan una valoración de aspectos internos o externos de la empresa, para proyectar una orientación acerca de la estrategia a emprender, de acuerdo con la realidad evidenciada.
     
     .row.justify-content-center
-      .col-md-8.col-lg-10
+      .col-lg-10
         .tarjeta.p-3.fnd-7
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -177,14 +177,14 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Indicadores de gestión e informes de diagnóstico
 
-    .row.justify-content-between.mb-4
-      .col-md-6.col-lg-6.mb-3
+    .row.justify-content-center.mb-4
+      .col-md-8.col-lg-6.mb-3
         img(src='@/assets/curso/temas/tema2/img-11.png')
-      .col-md-6.col-lg-6
+      .col-lg-6
         p Evaluar resultados resulta indispensable si la aspiración es administrar una empresa o proyecto con responsabilidad, buscando la sostenibilidad y supervivencia. Por esta razón, conocer los indicadores de gestión termina siendo, más que una opción, una necesidad. Los indicadores de gestión son una expresión, valor, o signo cuantitativo o cualitativo que muestran el desempeño o el logro en el proceso; sin embargo, en sí mismo el indicador no dice mucho; por esta razón, es preciso también definir valores de referencia para ser comparados a la luz de una meta u objetivo. Un indicador puede ser la evidencia del avance o estado de un proceso específico, pero el conjunto de varios indicadores bien analizados puede mostrar la situación de la empresa. La principal función de los indicadores de gestión es la de evaluar la implementación de la planeación estratégica y el alcance de sus propósitos; por esta razón, dentro de sus características principales, se encuentra el ser accesible, explícito (concreto), objetivo, sensible, fidedigno y, sobre todo, pertinente. 
 
     .row.justify-content-center.mb-4
-      .col-md-8.col-lg-10
+      .col-lg-10
         .bloque-texto-a.color-primario.p-4.p-md-5.fnd-8
           .row.m-0.align-items-center.justify-content-between
             .col-lg-3
@@ -231,40 +231,37 @@
 
     p.mb-4 En ámbitos de la innovación, también existen indicadores útiles para medir avances en la materia; enunciemos algunos ejemplos: 
 
-    .row
+    .row.justify-content-center.mb-5
       .col-md-6.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img-14.svg' alt='')
-          .tarjeta.color-acento-botones.fnd-11-
+          .tarjeta.color-acento-botones.w-100.fnd-11-
             .p-4
               p.text-center Cantidad de propuestas (nuevas ideas).
       .col-md-6.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img-15.svg' alt='')
-          .tarjeta.color-acento-botones.fnd-1
+          .tarjeta.color-acento-botones.w-100.fnd-1
             .p-4
               p.text-center Porcentaje de ideas seleccionadas para su desarrollo.
       .col-md-6.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img-16.svg' alt='')
-          .tarjeta.color-acento-botones.fnd-11-
+          .tarjeta.color-acento-botones.w-100.fnd-11-
             .p-4
               p.text-center Cantidad de proyectos o propuestas sin éxito.
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8
-        .row.mb-5
-          .col-md-6.col-lg.mb-3.mb-lg-0
-            .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema2/img-17.svg' alt='')
-              .tarjeta.color-acento-botones.fnd-1
-                .p-4
-                  p.text-center Ingresos generados por nuevas ideas.
-          .col-md-6.col-lg.mb-3.mb-lg-0
-            .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema2/img-18.svg' alt='')
-              .tarjeta.color-acento-botones.fnd-11-
-                .p-4
-                  p.text-center Porcentaje de ventas de nuevos productos.    
+      .col-md-6.col-lg.mb-3.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/img-17.svg' alt='')
+          .tarjeta.color-acento-botones.w-100.fnd-1
+            .p-4
+              p.text-center Ingresos generados por nuevas ideas.
+      .col-md-6.col-lg.mb-3.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/img-18.svg' alt='')
+          .tarjeta.color-acento-botones.w-100.fnd-11-
+            .p-4
+              p.text-center Porcentaje de ventas de nuevos productos.    
 
     ul.lista-ul--color.mor.mb-4
       li 
