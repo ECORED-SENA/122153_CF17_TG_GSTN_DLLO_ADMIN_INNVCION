@@ -206,7 +206,7 @@
     
     .mb-5
       figure 
-        img(src='@/assets/curso/temas/tema2/img-12-.svg')
+        img(src='@/assets/curso/temas/tema2/img-12-.svg' alt="Eficiencia: miden la capacidad de uso racional de los recursos para obtener resultados por encima de lo planeado. Eficacia: miden el funcionamiento desde la objetividad. Estratégicos: Miden variables orientadas a la planeación, más generales o globales. Operativos: miden elementos asociados a la operación de la empresa. Cuantitativos: miden elementos de producción y servicio (expresados en valores numéricos). Cualitativos: miden percepciones subjetivas sobre el desarrollo de funciones de la empresa. Externos: miden el impacto de la marca en el mercado. Internos: miden la gestión de los procesos de la empresa.")
 
     p.mb-4 Ahora, para generar o crear indicadores de gestión, se deben tener en cuenta diferentes pasos, evidenciados en la figura siguiente, porque el nivel de credibilidad y certeza del indicador, dependerá de su asertividad en la formulación:
 
